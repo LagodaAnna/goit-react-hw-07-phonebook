@@ -6,8 +6,7 @@ export const List = styled.ul`
 
 export const ContactItem = styled.li`
   display: flex;
-  justify-content: start;
-  max-width: 400px;
+  max-width: 90%;
   font-weight: ${p => p.theme.fontWeights.bold};
 
   &:not(:first-child) {
@@ -24,7 +23,7 @@ export const Number = styled.span`
 `;
 
 export const Button = styled.button`
-  flex-basis: 20%;
+  flex-basis: 15%;
   padding-top: ${p => p.theme.space[2]};
   padding-bottom: ${p => p.theme.space[2]};
   padding-right: ${p => p.theme.space[4]};
